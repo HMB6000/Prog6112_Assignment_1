@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: com.mycompany.tvsma.SeriesModelTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.278 s <<< FAILURE! -- in com.mycompany.tvsma.SeriesModelTest
+com.mycompany.tvsma.SeriesModelTest.testToString -- Time elapsed: 0.104 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.mycompany.tvsma.SeriesModel.toString()" because "instance" is null
+	at com.mycompany.tvsma.SeriesModelTest.testToString(SeriesModelTest.java:63)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
